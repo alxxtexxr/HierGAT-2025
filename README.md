@@ -18,5 +18,5 @@ To train the model from scratch, first `sh tt_[dataset].sh` for stage1, then
 edit the conf/config_[dataset]_[number].yaml file for stage2, and run `sh tt_[dataset].sh`.
 
 ## Test the Model
-Examples on MPHOI-72: when you get pre-trained models for all subject groups, you can get the cross-validation result by `python -W ignore predict.py --pretrained_model_dir ./outputs/mphoi/2G-GCN/hs512_e40_bs8_lr0.0001_0.3_Subject14 --cross_validate`.
+Examples on MPHOI-72: when you get pre-trained models for all subject groups, you can get the cross-validation result by `python -W ignore predict.py --pretrained_model_dir ./outputs_hiergat/mphoi/2G-GCN/hs512_e40_bs8_lr0.0001_0.3_Subject14 --cross_validate`.
 
