@@ -1,0 +1,6 @@
+__pycache__
+data
+!conf/data
+outputs_hiergat
+*.old.*
+*.tmp.*
