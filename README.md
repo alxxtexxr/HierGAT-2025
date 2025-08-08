@@ -20,7 +20,7 @@ To train the model from scratch:
 3. Run `sh tt_[dataset]_2025.sh` again to execute Stage 2.
 
 ## Test the Model
-Examples on MPHOI-72: Once you have obtained the pre-trained models for all subject groups, you can get the cross-validation results by running: 
+Example on MPHOI-72: Once you have obtained the pre-trained models for all subject groups, you can get the cross-validation results by running: 
 ```bash
 mkdir visualizations # If you haven't created the directory yet
 
