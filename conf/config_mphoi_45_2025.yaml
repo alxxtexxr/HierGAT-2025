@@ -1,6 +1,6 @@
 defaults:
   - _self_
-  - models: 2G-GCN_stage1_mphoi
+  - models: 2G-GCN_stage1_mphoi_2025
   - data: mphoi_45_2025 #mphoi, cad120, bimanual
 hydra:
   run:

@@ -23,7 +23,7 @@ torch.backends.cudnn.benchmark = False   # if benchmark=True, deterministic will
 torch.backends.cudnn.deterministic = True   # 选择确定性算法
 
 
-@hydra.main(config_path='conf/config_mphoi_25.yaml')
+@hydra.main(config_path='conf', config_name='config_mphoi_25_2025.yaml')
 def main(cfg: DictConfig):
     seed = 42
     torch.set_num_threads(cfg.resources.num_threads)
