@@ -452,7 +452,7 @@ def predict_all(args):
             plot_confusion_matrix(confusion_matrix, subactivity_names, normalize=True, title='',
                                   filename=os.path.join(save_visualisations_dir,
                                                         'confusion_subactivity_recognition_bimanual.pdf'))
-        pdb.set_trace()
+        # pdb.set_trace()
         for subject_id, (output, target, _) in sorted(outputs_per_subject.items()):
             print(f'\n{subject_id}')
             results = evaluate_predictions(target, output, subactivity_names=subactivity_names,

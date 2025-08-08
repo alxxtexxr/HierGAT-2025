@@ -22,11 +22,11 @@ To train the model from scratch:
 ## Test the Model
 Example on MPHOI-72: Once you have obtained the pre-trained models for all subject groups, you can get the cross-validation results by running: 
 ```bash
-mkdir visualizations # If you haven't created the directory yet
+mkdir predict_results # If you haven't created the directory yet
 
 python predict_2025.py \
 --pretrained_model_dir "./outputs_hiergat/mphoi/2G-GCN/hs512_e40_bs8_lr0.0001_0.3_Subject14" \
---save_visualisations_dir "./visualizations" \
+--save_visualisations_dir "./predict_results" \
 --cross_validate
 ```
 

@@ -2,5 +2,6 @@ __pycache__
 data
 !conf/data
 outputs_hiergat
+predict_results
 *.old.*
 *.tmp.*
